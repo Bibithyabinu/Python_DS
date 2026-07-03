@@ -1,0 +1,21 @@
+def result(m1, m2, m3):
+    total=m1 + m2 + m3
+    percentage = total / 3
+
+    if percentage>=90:
+        grade="A"
+    elif percentage>=80:
+        grade="B"
+    elif percentage>=70:
+        grade = "C"
+    else:
+        grade = "D"
+
+    print("total marks=",total)
+    print("percentage marks=",percentage)
+    print("grade marks=",grade)
+
+m1 = float(input("Enter first marks: "))
+m2 = float(input("Enter second marks: "))
+m3 = float(input("Enter third marks: "))
+result(m1, m2, m3)
